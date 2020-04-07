@@ -1,12 +1,13 @@
 body {
-  background-color: rgb(66, 66, 66);
+  background-color: rgb(78, 78, 78);
 }
 
 .App {
-  background-color: rgb(100, 71, 153);
-  min-height: 500px;
+  background-color: rgb(28, 37, 61);
+  min-height: 400px;
   width: 400px;
   margin: 40px auto;
+  padding-top: 40px;
 }
 
 #to-do-form input {
@@ -17,13 +18,13 @@ body {
   padding: 0 20px;
   margin: 20px;
   font-size: 18px;
-  border-radius: 10px;
-  color: white;
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
 }
 
 
 #to-do-form input::placeholder {
-  color: wheat;
+  color: lime;
 }
 
 #to-do-form input:focus,#to-do-form button:focus  {
@@ -35,8 +36,9 @@ body {
   width: 80px;
   border-radius: 5px;
   border: 0;
-  background-color: lime;
+  background-color: rgb(224, 224, 224);
   cursor: pointer;
   font-weight: bolder;
   color: rgb(12, 12, 12);
+  border-radius: 50px;
 }
